@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   return nil if name_hash.empty?
   
-  array = name_hash.map {|key| key}
+  array = name_hash.map {|key, value| key}
   
   min_key = name_hash[array[0]]
   min_value = 0
