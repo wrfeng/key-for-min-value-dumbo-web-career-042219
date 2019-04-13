@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   
   array = []
   
-  name_hash.each_key {|key| array << val}
+  name_hash.each_key {|key| array << key}
   
   min_key = name_hash[array[0]]
   min_value = 0
