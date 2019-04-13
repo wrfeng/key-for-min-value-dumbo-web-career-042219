@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
     if value < name_hash[min_key]
       min_value = value
       min_key = key
+    end
   end
   
   min_key
